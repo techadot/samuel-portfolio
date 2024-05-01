@@ -16,7 +16,7 @@ import storefront from "@/public/images/storefront.png";
 
 const Projects = () => {
   return (
-    <Container className="pl-0 pt-20">
+    <Container className="px-0 pt-20">
       <h1 className="text-4xl font-bold">
         All my <br />
         Projects

@@ -1,3 +1,4 @@
+import About from "@/components/about";
 import Container from "@/components/container";
 import Hero from "@/components/hero";
 import Projects from "@/components/projects";
@@ -8,6 +9,7 @@ export default function Home() {
     <Container className="pt-[160px]">
       <Hero />
       <Projects />
+      <About />
       <Skills />
     </Container>
   );

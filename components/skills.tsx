@@ -19,7 +19,7 @@ import flutter from "@/public/images/flutter.png";
 
 const Skills = () => {
   return (
-    <Container className="px-0 py-16">
+    <Container className="px-0 py-10">
       <h1 className="text-4xl font-bold">Skills</h1>
       <p className="text-muted-foreground">
         The Skills, tools and technologies I am really good at!
