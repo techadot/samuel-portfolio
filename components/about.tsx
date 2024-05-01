@@ -7,7 +7,7 @@ import vector from "@/public/images/vector.png";
 
 const About = () => {
   return (
-    <Container className="px-0 py-16">
+    <div className="px-0 py-16">
       <div className="relative">
         <h1 className="text-4xl font-bold">
           About <br />
@@ -21,8 +21,8 @@ const About = () => {
       </div>
       <p className="text-muted-foreground">Get to know me!</p>
 
-      <div className="flex justify-between items-center gap-4">
-        <p className="w-1/2 text-xl font-normal text-black border-l-4 border-black px-6">
+      <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+        <p className="w-full md:w-1/2 text-xl font-normal border-l-4 border-black dark:border-white px-6 mt-5">
           I am a software engineer with 5+ years of experience in the tech
           industry. I am passionate about building innovative and user-friendly
           software solutions. I have a strong understanding of software
@@ -34,7 +34,7 @@ const About = () => {
         </p>
         <Image src={aboutImg} alt="Profile" className="w-[350px]" />
       </div>
-    </Container>
+    </div>
   );
 };
 

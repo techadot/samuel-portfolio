@@ -3,6 +3,7 @@ import { Bricolage_Grotesque } from "next/font/google";
 import "./globals.css";
 import Nav from "@/components/nav";
 import Footer from "@/components/footer";
+import { ThemeProvider } from "@/providers/theme-providers";
 
 const font = Bricolage_Grotesque({
   subsets: ["latin"],
@@ -22,9 +23,16 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={font.className}>
-        <Nav />
-        {children}
-        <Footer />
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          <Nav />
+          {children}
+          <Footer />
+        </ThemeProvider>
       </body>
     </html>
   );

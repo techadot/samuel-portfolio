@@ -20,7 +20,11 @@ const Footer = () => {
           <p>abbey.developer@gmail.com</p>
           <p>+234 701 718 1619</p>
         </div>
-        <Image src={footerimage} alt="footer image" className="w-[350px]" />
+        <Image
+          src={footerimage}
+          alt="footer image"
+          className="w-[350px] hidden md:block"
+        />
       </div>
       <Separator className="my-10 bg-gray-800" />
       <p className="text-center text-muted-foreground">

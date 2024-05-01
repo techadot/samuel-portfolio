@@ -19,12 +19,12 @@ import flutter from "@/public/images/flutter.png";
 
 const Skills = () => {
   return (
-    <Container className="px-0 py-10">
+    <div className="px-0 py-10 pb-28">
       <h1 className="text-4xl font-bold">Skills</h1>
       <p className="text-muted-foreground">
         The Skills, tools and technologies I am really good at!
       </p>
-      <div className="flex flex-wrap justify-start items-center gap-4 mt-10 text-center">
+      <div className="grid grid-cols-4 md:grid-cols-6 lg:grid-cols-11 gap-3 mt-6">
         <div>
           <div className="bg-yellow-50 p-2 rounded-[10px]">
             <Image src={js} alt="javascript" className="w-16" />
@@ -130,7 +130,7 @@ const Skills = () => {
           <p className="text-muted-foreground">Flutter</p>
         </div>
       </div>
-    </Container>
+    </div>
   );
 };
 

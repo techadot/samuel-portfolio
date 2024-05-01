@@ -16,18 +16,18 @@ import storefront from "@/public/images/storefront.png";
 
 const Projects = () => {
   return (
-    <Container className="px-0 pt-20">
+    <div className="px-0 pt-20">
       <h1 className="text-4xl font-bold">
         All my <br />
         Projects
       </h1>
-      <p className="w-1/2 text-muted-foreground">
+      <p className="w-full md:w-1/2 text-muted-foreground">
         Here are some selected projects that showcase my passion for software
         development
       </p>
 
       {/* LMS Project */}
-      <Card className="my-7 flex justify-between items-center gap-7">
+      <Card className="my-7 flex flex-col md:flex-row justify-between items-center gap-7">
         <div className="w-full h-full bg-gradient-to-r from-[#fbed96] to-[#abecd6] rounded-lg p-8">
           <Image src={lms} alt="project1" />
         </div>
@@ -61,7 +61,7 @@ const Projects = () => {
       </Card>
 
       {/* 10mg Project */}
-      <Card className="my-7 flex justify-between items-center gap-7">
+      <Card className="my-7  flex flex-col md:flex-row items-center gap-7">
         <div>
           <Badge className="bg-gray-500 mb-5">Private Github Project</Badge>
           <h1 className="text-2xl font-bold">10mg Pharma Website</h1>
@@ -97,7 +97,7 @@ const Projects = () => {
       </Card>
 
       {/* KMA Project */}
-      <Card className="my-7 flex justify-between items-center gap-7">
+      <Card className="my-7  flex flex-col md:flex-row items-center gap-7">
         <div className="w-full h-full bg-gradient-to-r from-[#fb8282] to-[#55bbff] rounded-lg p-8">
           <Image src={kma} alt="kma" />
         </div>
@@ -130,7 +130,7 @@ const Projects = () => {
       </Card>
 
       {/* Greenbii Mobile App Project */}
-      <Card className="my-7 flex justify-between items-center gap-7">
+      <Card className="my-7  flex flex-col md:flex-row items-center gap-7">
         <div>
           <Badge className="bg-gray-500 mb-5">Private Github Project</Badge>
           <h1 className="text-2xl font-bold">Greenbii Mobile App</h1>
@@ -164,7 +164,7 @@ const Projects = () => {
       </Card>
 
       {/* PowerZone Project */}
-      <Card className="my-7 flex justify-between items-center gap-7">
+      <Card className="my-7  flex flex-col md:flex-row items-center gap-7">
         <div className="w-full h-full bg-gradient-to-r from-[#ffd04e] to-[#ffb0b0] rounded-lg p-8">
           <Image src={pz} alt="powerzone" />
         </div>
@@ -195,7 +195,7 @@ const Projects = () => {
       </Card>
 
       {/* Greenbii Project */}
-      <Card className="my-7 flex justify-between items-center gap-7">
+      <Card className="my-7  flex flex-col md:flex-row items-center gap-7">
         <div>
           <Badge className="bg-gray-500 mb-5">Private Github Project</Badge>
           <h1 className="text-2xl font-bold">Greenbii ERP Sofware</h1>
@@ -229,7 +229,7 @@ const Projects = () => {
       </Card>
 
       {/* Greenbii StoreFront Project */}
-      <Card className="my-7 flex justify-between items-center gap-7">
+      <Card className="my-7  flex flex-col md:flex-row items-center gap-7">
         <div className="w-full h-full bg-gradient-to-r from-[#fbed96] to-[#abecd6] rounded-lg p-8">
           <Image src={storefront} alt="project1" />
         </div>
@@ -261,7 +261,7 @@ const Projects = () => {
           </div>
         </div>
       </Card>
-    </Container>
+    </div>
   );
 };
 
