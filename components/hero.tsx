@@ -3,6 +3,7 @@ import Image from "next/image";
 import heroImg from "@/public/images/memoji.png";
 import { Button } from "./ui/button";
 import { ArrowRight, DownloadIcon } from "lucide-react";
+import DownloadLink from "./download-link";
 
 const Hero = () => {
   return (
@@ -21,7 +22,7 @@ const Hero = () => {
           </a>
           <Button className="rounded-full" variant="ghost">
             <DownloadIcon className="w-4 h-4 mr-2" />
-            Download CV
+            <DownloadLink filename="abbeydev_resume.pdf" />
           </Button>
         </div>
       </div>

@@ -1,8 +1,6 @@
 import Image from "next/image";
 import Container from "./container";
-import { Menu } from "lucide-react";
 import logo from "@/public/images/abbeydev-logo.png";
-import Profile from "./profile";
 import DropDown from "./dropdown";
 import { ThemeSwitch } from "./ui/theme-switch";
 

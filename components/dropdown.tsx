@@ -4,17 +4,13 @@ import {
   DropdownMenuGroup,
   DropdownMenuItem,
   DropdownMenuLabel,
-  DropdownMenuPortal,
   DropdownMenuSeparator,
-  DropdownMenuShortcut,
-  DropdownMenuSub,
-  DropdownMenuSubContent,
-  DropdownMenuSubTrigger,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 
 import Profile from "./profile";
 import { Download, Github, Instagram, Linkedin } from "lucide-react";
+import DownloadLink from "./download-link";
 
 const DropDown = () => {
   return (
@@ -62,9 +58,7 @@ const DropDown = () => {
           <DropdownMenuSeparator />
           <DropdownMenuItem>
             <Download className="w-4 h-4 mr-2" />
-            <a download={true} href="" target="_blank" rel="noreferrer">
-              Download CV
-            </a>
+            <DownloadLink filename="abbeydev_resume.pdf" />
           </DropdownMenuItem>
         </DropdownMenuGroup>
       </DropdownMenuContent>
