@@ -14,9 +14,11 @@ const Hero = () => {
           I develop ideas and help build a better world through software.
         </p>
         <div className="flex gap-4 mt-10">
-          <Button className="rounded-full" variant="default">
-            Contact me
-          </Button>
+          <a href="tel:2347017181619">
+            <Button className="rounded-full" variant="default">
+              Contact me
+            </Button>
+          </a>
           <Button className="rounded-full" variant="ghost">
             <DownloadIcon className="w-4 h-4 mr-2" />
             Download CV

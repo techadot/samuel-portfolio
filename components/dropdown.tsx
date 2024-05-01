@@ -42,7 +42,7 @@ const DropDown = () => {
           <DropdownMenuItem>
             <Linkedin className="w-4 h-4 mr-2" />
             <a
-              href="https://linkedin/in/abiodun-bankole"
+              href="https://www.linkedin.com/in/abiodun-bankole"
               target="_blank"
               rel="noreferrer"
             >
@@ -52,7 +52,7 @@ const DropDown = () => {
           <DropdownMenuItem>
             <Instagram className="w-4 h-4 mr-2" />
             <a
-              href="https://instagram.com/abbeydevs_"
+              href="https://www.instagram.com/abbeydev_/"
               target="_blank"
               rel="noreferrer"
             >

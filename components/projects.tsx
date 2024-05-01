@@ -50,12 +50,24 @@ const Projects = () => {
             <Badge className="bg-black">Shadcn-ui</Badge>
           </div>
           <div className="flex justify-start items-center mt-7">
-            <Button className="rounded-full">
-              Live Demo <ArrowUpRight className="w-5 h5 ml-2" />
-            </Button>
-            <Button variant="ghost" className="rounded-full">
-              See on Github <Github className="w-5 h5 ml-2" />
-            </Button>
+            <a
+              href="https://kma-dashb.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Button className="rounded-full">
+                Live Demo <ArrowUpRight className="w-5 h5 ml-2" />
+              </Button>
+            </a>
+            <a
+              href="https://github.com/Abbeydevs/kma-dashboard.git"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Button variant="ghost" className="rounded-full">
+                See on Github <Github className="w-5 h5 ml-2" />
+              </Button>
+            </a>
           </div>
         </div>
       </Card>
@@ -86,9 +98,15 @@ const Projects = () => {
                 Live Demo <ArrowUpRight className="w-5 h5 ml-2" />
               </Button>
             </a>
-            <Button variant="ghost" className="rounded-full">
-              See on Github <Github className="w-5 h5 ml-2" />
-            </Button>
+            <a
+              href="https://github.com/greenbii/10mg_revamp.git"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button variant="ghost" className="rounded-full">
+                See on Github <Github className="w-5 h5 ml-2" />
+              </Button>
+            </a>
           </div>
         </div>
         <div className="w-full h-full bg-gradient-to-r from-[#949494] to-[#0bebff] rounded-lg p-8">
@@ -119,12 +137,24 @@ const Projects = () => {
             <Badge className="bg-black">Python</Badge>
           </div>
           <div className="flex justify-start items-center mt-7">
-            <Button className="rounded-full">
-              Live Demo <ArrowUpRight className="w-5 h5 ml-2" />
-            </Button>
-            <Button variant="ghost" className="rounded-full">
-              See on Github <Github className="w-5 h5 ml-2" />
-            </Button>
+            <a
+              href="https://krizbeatzmusicacademy.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Button className="rounded-full">
+                Live Demo <ArrowUpRight className="w-5 h5 ml-2" />
+              </Button>
+            </a>
+            <a
+              href="https://github.com/WAWSOUNDS/kma-app.git"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Button variant="ghost" className="rounded-full">
+                See on Github <Github className="w-5 h5 ml-2" />
+              </Button>
+            </a>
           </div>
         </div>
       </Card>
@@ -150,12 +180,16 @@ const Projects = () => {
             <Badge className="bg-yellow-800">Provider</Badge>
           </div>
           <div className="flex justify-start items-center mt-7">
-            <Button className="rounded-full">
-              Live Demo <ArrowUpRight className="w-5 h5 ml-2" />
-            </Button>
-            <Button variant="ghost" className="rounded-full">
-              See on Github <Github className="w-5 h5 ml-2" />
-            </Button>
+            <a href="https://greenbii.com/" target="_blank" rel="noreferrer">
+              <Button className="rounded-full">
+                Live Demo <ArrowUpRight className="w-5 h5 ml-2" />
+              </Button>
+            </a>
+            <a href="https://greenbii.com/" target="_blank" rel="noreferrer">
+              <Button variant="ghost" className="rounded-full">
+                See on Github <Github className="w-5 h5 ml-2" />
+              </Button>
+            </a>
           </div>
         </div>
         <div className="w-full h-full bg-gradient-to-r from-[#ffdc74] to-[#abecd6] rounded-lg p-8">
@@ -184,18 +218,30 @@ const Projects = () => {
             <Badge className="bg-blue-800">Tailwind</Badge>
           </div>
           <div className="flex justify-start items-center mt-7">
-            <Button className="rounded-full">
-              Live Demo <ArrowUpRight className="w-5 h5 ml-2" />
-            </Button>
-            <Button variant="ghost" className="rounded-full">
-              See on Github <Github className="w-5 h5 ml-2" />
-            </Button>
+            <a
+              href="https:///www.powerzone.energy/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Button className="rounded-full">
+                Live Demo <ArrowUpRight className="w-5 h5 ml-2" />
+              </Button>
+            </a>
+            <a
+              href="https:///www.powerzone.energy/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Button variant="ghost" className="rounded-full">
+                See on Github <Github className="w-5 h5 ml-2" />
+              </Button>
+            </a>
           </div>
         </div>
       </Card>
 
       {/* Greenbii Project */}
-      <Card className="my-7  flex flex-col md:flex-row items-center gap-7">
+      <Card className="my-7 flex flex-col md:flex-row items-center gap-7">
         <div>
           <Badge className="bg-gray-500 mb-5">Private Github Project</Badge>
           <h1 className="text-2xl font-bold">Greenbii ERP Sofware</h1>
@@ -215,12 +261,16 @@ const Projects = () => {
             <Badge className="bg-black">Bootstrap</Badge>
           </div>
           <div className="flex justify-start items-center mt-7">
-            <Button className="rounded-full">
-              Live Demo <ArrowUpRight className="w-5 h5 ml-2" />
-            </Button>
-            <Button variant="ghost" className="rounded-full">
-              See on Github <Github className="w-5 h5 ml-2" />
-            </Button>
+            <a href="https://greenbii.com/" target="_blank" rel="noreferrer">
+              <Button className="rounded-full">
+                Live Demo <ArrowUpRight className="w-5 h5 ml-2" />
+              </Button>
+            </a>
+            <a href="https://greenbii.com/" target="_blank" rel="noreferrer">
+              <Button variant="ghost" className="rounded-full">
+                See on Github <Github className="w-5 h5 ml-2" />
+              </Button>
+            </a>
           </div>
         </div>
         <div className="w-full h-full bg-gradient-to-r from-[#fbed96] to-[#abecd6] rounded-lg p-8">
@@ -252,12 +302,24 @@ const Projects = () => {
             <Badge className="bg-blue-800">Shadcn-ui</Badge>
           </div>
           <div className="flex justify-start items-center mt-7">
-            <Button className="rounded-full">
-              Live Demo <ArrowUpRight className="w-5 h5 ml-2" />
-            </Button>
-            <Button variant="ghost" className="rounded-full">
-              See on Github <Github className="w-5 h5 ml-2" />
-            </Button>
+            <a
+              href="https://app.greenbii.com/auth/app/storefront_cikvm"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Button className="rounded-full">
+                Live Demo <ArrowUpRight className="w-5 h5 ml-2" />
+              </Button>
+            </a>
+            <a
+              href="https://github.com/greenbii/new_store-front_frontend.git"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Button variant="ghost" className="rounded-full">
+                See on Github <Github className="w-5 h5 ml-2" />
+              </Button>
+            </a>
           </div>
         </div>
       </Card>
