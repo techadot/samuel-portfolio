@@ -24,108 +24,108 @@ const Skills = () => {
       <p className="text-muted-foreground">
         The Skills, tools and technologies I am really good at!
       </p>
-      <div className="grid grid-cols-4 md:grid-cols-6 lg:grid-cols-11 gap-3 mt-6">
+      <div className="grid grid-cols-4 md:grid-cols-6 lg:grid-cols-11 gap-3 mt-6 text-center">
         <div>
           <div className="bg-yellow-50 p-2 rounded-[10px]">
-            <Image src={js} alt="javascript" className="w-16" />
+            <Image src={js} alt="javascript" />
           </div>
           <p className="text-muted-foreground">Javascript</p>
         </div>
 
         <div>
           <div className="bg-blue-50 p-2 rounded-[10px]">
-            <Image src={ts} alt="typescript" className="w-16" />
+            <Image src={ts} alt="typescript" />
           </div>
           <p className="text-muted-foreground">Typescript</p>
         </div>
 
         <div>
           <div className="bg-cyan-50 p-2 rounded-[10px]">
-            <Image src={react} alt="react" className="w-16" />
+            <Image src={react} alt="react" />
           </div>
           <p className="text-muted-foreground">React</p>
         </div>
 
         <div>
           <div className="bg-green-50 p-2 rounded-[10px]">
-            <Image src={node} alt="node js" className="w-16" />
+            <Image src={node} alt="node js" />
           </div>
           <p className="text-muted-foreground">NodeJs</p>
         </div>
 
         <div>
           <div className="bg-slate-50 p-2 rounded-[10px]">
-            <Image src={nextjs} alt="nextjs" className="w-16" />
+            <Image src={nextjs} alt="nextjs" />
           </div>
           <p className="text-muted-foreground">Nextjs</p>
         </div>
 
         <div>
           <div className="bg-slate-50 p-2 rounded-[10px]">
-            <Image src={tailwind} alt="tailwind" className="w-16" />
+            <Image src={tailwind} alt="tailwind" />
           </div>
           <p className="text-muted-foreground">Tailwind</p>
         </div>
 
         <div>
           <div className="bg-slate-50 p-2 rounded-[10px]">
-            <Image src={msSql} alt="my sql" className="w-16" />
+            <Image src={msSql} alt="my sql" />
           </div>
           <p className="text-muted-foreground">My Sql</p>
         </div>
 
         <div>
           <div className="bg-blue-50 p-2 rounded-[10px]">
-            <Image src={prisma} alt="prisma" className="w-16" />
+            <Image src={prisma} alt="prisma" />
           </div>
           <p className="text-muted-foreground">Prisma</p>
         </div>
 
         <div>
           <div className="bg-slate-50 p-2 rounded-[10px]">
-            <Image src={supabase} alt="supabase" className="w-16" />
+            <Image src={supabase} alt="supabase" />
           </div>
           <p className="text-muted-foreground">Supabase</p>
         </div>
 
         <div>
           <div className="bg-slate-50 p-2 rounded-[10px]">
-            <Image src={shadcn} alt="shadcn" className="w-16" />
+            <Image src={shadcn} alt="shadcn" />
           </div>
           <p className="text-muted-foreground">Shadcn UI</p>
         </div>
 
         <div>
           <div className="bg-slate-50 p-2 rounded-[10px]">
-            <Image src={postgres} alt="postgres" className="w-16" />
+            <Image src={postgres} alt="postgres" />
           </div>
           <p className="text-muted-foreground">Postgres</p>
         </div>
 
         <div>
           <div className="bg-slate-50 p-2 rounded-[10px]">
-            <Image src={angular} alt="angular" className="w-16" />
+            <Image src={angular} alt="angular" />
           </div>
           <p className="text-muted-foreground">Angular</p>
         </div>
 
         <div>
           <div className="bg-slate-50 p-2 rounded-[10px]">
-            <Image src={figma} alt="figma" className="w-16" />
+            <Image src={figma} alt="figma" />
           </div>
           <p className="text-muted-foreground">Figma</p>
         </div>
 
         <div>
           <div className="bg-slate-50 p-2 rounded-[10px]">
-            <Image src={python} alt="python" className="w-16" />
+            <Image src={python} alt="python" />
           </div>
           <p className="text-muted-foreground">Python</p>
         </div>
 
         <div>
           <div className="bg-slate-50 p-2 rounded-[10px]">
-            <Image src={flutter} alt="flutter" className="w-16" />
+            <Image src={flutter} alt="flutter" />
           </div>
           <p className="text-muted-foreground">Flutter</p>
         </div>

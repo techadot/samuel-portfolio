@@ -3,6 +3,7 @@ import Image from "next/image";
 import Container from "./container";
 import footerimage from "@/public/images/footer-image.png";
 import { Separator } from "./ui/separator";
+import { Contact, Mail, Phone } from "lucide-react";
 
 const Footer = () => {
   const date = new Date();
@@ -16,9 +17,20 @@ const Footer = () => {
             Do you have <br /> any idea?{" "}
             <span className="text-blue-300">Let&apos;s build it together!</span>
           </h1>
-          <p></p>
-          <p>abbey.developer@gmail.com</p>
-          <p>+234 701 718 1619</p>
+          <a
+            href="mailto:abbey.developer@gmail.com"
+            className="flex items-center gap-2 underline"
+          >
+            <Mail className="w-4 h-4 text-blue-300" />{" "}
+            <span>abbey.developer@gmail.com</span>
+          </a>
+          <a
+            href="tel:+2347017181619"
+            className="flex items-center gap-2 underline mt-3"
+          >
+            <Phone className="w-4 h-4 text-blue-300" />
+            <span>+234 701 718 1619</span>
+          </a>
         </div>
         <Image
           src={footerimage}
