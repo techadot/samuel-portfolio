@@ -1,9 +1,14 @@
-import Image from "next/image";
+import Container from "@/components/container";
+import Hero from "@/components/hero";
+import Projects from "@/components/projects";
+import Skills from "@/components/skills";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1>Abbeydev Portfolio</h1>
-    </main>
+    <Container className="pt-[160px]">
+      <Hero />
+      <Projects />
+      <Skills />
+    </Container>
   );
 }
